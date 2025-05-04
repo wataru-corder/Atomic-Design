@@ -3,7 +3,7 @@ import { Card } from '../../atoms/card/Card';
 import { UserIconWIthName } from '../../molecules/user/UserIconWithName';
 
 export const UserCard = (props) => {
-  const { user } = props;
+  const { user,isAdmin } = props;
   return (
     <Card>
       <UserIconWIthName image={user.image} name={user.name} />
